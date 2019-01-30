@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #3f3f3f;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav a {
+    float: left;
+    display: block;
+    width: 25%;
+    background-color: #595959;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #000000;
+}
+
+
+
+article {
+    font-size: 16px;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+
+article h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0 20% 30px 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #595959;
+}
+
+article span {
+    display: block;
+    font-size: 20px;
+}
+
+img.left {
+    float: left;
+    padding: 10px;
+    width: 25%;
+    border-radius: 50%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+.icon-facebook {
+    height: 480px;
+    width: 294px;
+    position: fixed;
+    right: -305px;
+    top: 50%;
+    margin-top: -246px;
+    background-color: #ffffff;
+    border-color: #335F9D;
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+    padding: 5px;
+    z-index: 6;
+}
+
+#facebook-likebox-button {
+    position: absolute;
+    left: -43px;
+    top: -1px;
+    display: block;
+    padding: 12px 16px;
+    background-color: #335F9D;
+    border-radius: 5px 0px 0px 5px;
+}
+
+footer {
+    border-top: 2px solid #eaeaea;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    nav a {
+        width: 50%;
+        font-size: 22px;
+    }
+    article p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    nav a {
+        width: 100%;
+        font-size: 24px;
+    }
+    article p {
+        font-size: 24px;
+    }
+}
